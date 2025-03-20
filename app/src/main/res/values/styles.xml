@@ -5,7 +5,7 @@
         <item name="android:layout_height">60sp</item>
         <item name="android:layout_margin">2dp</item>
         <item name="android:orientation">horizontal</item>
-        <item name="android:background">@color/black</item>
+        <item name="android:background">@color/blue1</item>
     </style>
 
     <style name="text">
@@ -21,7 +21,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">3</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="date">
@@ -29,14 +29,15 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textSize">13sp</item>
-        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textColor">@color/red</item>
     </style>
 
     <style name="update_button">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_margin">10dp</item>
-        <item name="android:background">@color/yellow</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/red</item>
     </style>
 
     <style name="img">
@@ -54,7 +55,7 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_weight">8</item>
         <item name="android:fontFamily">sans-serif-black</item>
-        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:textSize">20sp</item>
     </style>
 
@@ -63,15 +64,15 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginRight">20dp</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:background">@color/yellow</item>
+        <item name="android:background">@color/white</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/black</item>
+        <item name="android:textColor">@color/red</item>
         <item name="android:gravity">center</item>
         <item name="android:fontFamily">sans-serif-black</item>
     </style>
 
     <style name="scroll_bg">
-        <item name="android:background">@color/yellow</item>
+        <item name="android:background">@color/white</item>
     </style>
 
     <style name="text_view">

@@ -12,11 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:background="@color/black">
+        android:background="@color/blue1">
 
         <ImageView
             android:id="@+id/sev_pic"
-            app:srcCompat="@drawable/sev"
+            app:srcCompat="@drawable/sev_white"
             style="@style/img" />
 
         <TextView

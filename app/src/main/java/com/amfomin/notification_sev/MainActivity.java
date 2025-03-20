@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         bt.setId(id);
         bt.setLayoutParams(lp);
         bt.setText("смотреть");
-        bt.setBackgroundColor(getResources().getColor(R.color.yellow));
+        bt.setBackgroundColor(getResources().getColor(R.color.white));
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
