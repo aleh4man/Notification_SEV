@@ -23,7 +23,8 @@
 
             <EditText
                 android:id="@+id/note_name"
-                style="@style/name"/>
+                style="@style/name"
+                android:background="@android:color/transparent"/>
 
             <TextView
                 android:id="@+id/note_date"
@@ -57,19 +58,19 @@
     <ScrollView
         android:id="@+id/scroll_edit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/header_title2"
         android:layout_above="@id/buttons"
         android:layout_marginStart="20sp"
-        android:layout_marginTop="15sp"
-        android:layout_marginEnd="20sp"
-        android:layout_marginBottom="15sp">
+        android:layout_marginTop="2sp">
 
         <EditText
             android:id="@+id/scroll_edit_text"
             style="@style/text_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="20sp"/>
     </ScrollView>
 
 
