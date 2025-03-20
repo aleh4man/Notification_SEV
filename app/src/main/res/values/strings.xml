@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notification_SEV</string>
+    <string name="header">ЗАМЕТКИ</string>
+    <string name="tmp1">Создать</string>
+    <string name="redact">Изменить</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+</resources>

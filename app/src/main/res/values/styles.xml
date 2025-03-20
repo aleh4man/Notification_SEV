@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+    <style name="date">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+    <style name="update_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@color/yellow</item>
+    </style>
+
+    <style name="img">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">8</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="create_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/yellow</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="scroll_bg">
+        <item name="android:background">@color/yellow</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+</resources>

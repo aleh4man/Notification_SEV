@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/sev_pic"
+            app:srcCompat="@drawable/sev"
+            style="@style/img" />
+
+        <TextView
+            android:id="@+id/notes"
+            android:text="@string/header"
+            style="@style/title_text" />
+
+        <Button
+            android:id="@+id/create"
+            android:text="@string/tmp1"
+            style="@style/create_button" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_title"
+        style="@style/scroll_bg">
+
+        <GridLayout
+            android:id="@+id/rel_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:columnCount="1">
+        </GridLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
