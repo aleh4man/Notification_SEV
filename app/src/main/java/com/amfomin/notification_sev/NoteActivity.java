@@ -16,11 +16,12 @@ import android.widget.Toast;
 public class NoteActivity extends AppCompatActivity {
     Note note;
     int id = -2;
+    DBHandler db = new DBHandler(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        DBHandler db = new DBHandler(this);
+
         setContentView(R.layout.activity_note);
 
         if (id == -2) {
@@ -80,5 +81,25 @@ public class NoteActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+
+        EditText eew = findViewById(R.id.scroll_edit_text);
+        String content = eew.getText().toString();
+
+        eew = findViewById(R.id.note_name);
+        String name = eew.getText().toString();
+
+        if (!content.isEmpty()) {
+            note.setName(name);
+            note.setContent(content);
+            if (note.getId() == -1) db.addNote(note);
+            else db.updateNote(note);
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
     }
 }
